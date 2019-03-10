@@ -1,11 +1,20 @@
 # MKS_Unity_Tool_Scripts
 MKS Unity Tool Scripts for various recurring Unity tasks
 
-# Version
-v1.3 - Initial archive creation.
+# GitHub
+https://github.com/Hairein/MKS_Unity_Tool_Scripts
+
+# Version and Release
+v1.3/TBD - Initial archive creation. Added scripts for NavMesh exporting levels.
 
 # Scripts
 
-## Export Unity GameObjects with specific parameters (see scripts for documentation)
+# Export Unity GameObjects as JSON, OBJ
 MKS_UnityExportLevel_JSON.cs
+
 MKS_UnityExportLevel_TEXT.cs
+
+## Export Unity NavMesh as JSON, OBJ
+MKS_UnityExportNavMesh_JSON.cs
+
+MKS_UnityExportNavMesh_OBJ.cs
