@@ -3,6 +3,8 @@
 // http://www.micahkoleoso.de
 // For fixes, changes, feature requests, email contact@micahkoleoso.de
 
+// NOTE:    No material or UV information is exported, only area IDs, vertices and faces
+
 #if UNITY_EDITOR
 
 using UnityEngine;
@@ -40,7 +42,7 @@ public class MKS_UnityExportNavMesh_JSON : MonoBehaviour
         }
     }
 
-    public static void WriteNavMeshLines(StreamWriter streamWriter) 
+    private static void WriteNavMeshLines(StreamWriter streamWriter) 
     {
         NavMeshTriangulation triangulation = NavMesh.CalculateTriangulation(); 
         
